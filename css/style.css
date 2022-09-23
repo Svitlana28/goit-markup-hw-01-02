@@ -58,7 +58,7 @@ body {
                 color: #2196F3;
         }
         .hero{background-color: #212121;}
-        .hero-h1
+        .hero-zag
         {
                     font-weight: 900;
                     font-size: 44px;
@@ -99,7 +99,7 @@ body {
                     color: #757575;
 
                 }
-                .section2{
+                .section-diy{
                     font-weight: 700;
                     font-size: 36px;
                     line-height: 1.16;
@@ -108,15 +108,15 @@ body {
                  color: #212121;
 
                 }
-                /*-----section3-----*/
-                .section3{
+                /*-----section-----*/
+                .section-comanda{
                     font-weight: 700;
                     font-size: 36px;
                     line-height: 1.16;
                     text-align: center;
                     letter-spacing: 0.03em;
                     color: #212121;}
-                    .section3-imy{
+                    .section-comandaimg{
                             font-weight: 500;
                             font-size: 16px;
                             line-height: 1.18;
@@ -125,10 +125,7 @@ body {
                             letter-spacing: 0.03em;
                             color: #212121;
                     }
-                    .section3-prof{
-                        font-family: 'Roboto';
-                            font-style: normal;
-                            font-weight: 400;
+                    .section-comandaprof{
                             font-size: 16px;
                             line-height: 1.18;
                             /* identical to box height */
@@ -154,7 +151,6 @@ body {
                             color: #FFFFFF;
                     }
                     .footer-tel{
-                            font-weight: 400;
                             font-size: 14px;
                             line-height:1.71;
                             /* or 171% */
@@ -162,9 +158,6 @@ body {
                             color: rgba(255, 255, 255, 0.6);
                     }
                     .footer-web{
-                        font-family: 'Roboto';
-                            font-style: normal;
-                            font-weight: 400;
                             font-size: 14px;
                             line-height:1.71;
                             /* or 171% */
