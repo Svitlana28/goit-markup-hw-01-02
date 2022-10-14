@@ -1,207 +1,222 @@
-body {
-    font-family:"Roboto"
+ 
+ 
+ 
+:root {
+    --meil-color: rgba(33, 33, 33, 1)
 }
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
 ul {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
 }
 
 /*-----HEADER-----*/
-.menu{display: flex;}
-.header-link {
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.accent {
+    color: #1b1c1e;
+}
+
+.heder {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 16px;
+    line-height: 1.62;
     letter-spacing: 0.02em;
+    color: var(--meil-color)
+}
+
+
+
+.header-mail {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--meil-color)
+}
+
+
+.header-tel {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.stadi{color: #060607;}
+:hover,footer{color: #2196F3;}
+
+/*-----hero----*/
+
+
+.hero {
+    background-color: #060607;
+}
+
+.hero-zag {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-but {
+    background-color: #2196F3;
+}
+
+.hero-but {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*--------section--------*/
+.section-detel {
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #212121;
 }
 
-        .heder-studiy {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 1.14;
-            letter-spacing: 0.02em;
-            color: #2196F3;
-            cursor: pointer; 
-        }
-           .header-list current {color:#FFFFFF}
+.section-tekst {
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #757575;
 
-.header-studiy:focus,
-.header-studiy:hover {
-    color:rgb(213, 30, 64)
 }
 
-.header-mail{
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-    
-        color: #2196F3;}
-    .header-tel{
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        color: #757575;}
- .header-mail:hover{color: #2196F3;
-         
-        }
+.section-diy {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 
-        .header-logo{
-                font-weight: 700;
-                font-size: 26px;
-                line-height: 1.19;
-                /* identical to box height */
-                letter-spacing: 0.03em;
-                color: #2196F3;
-        }
-        .accent{color: #212121;}
-        .hero{background-color: #212121;}
-        .hero-zag
-        {
-                    font-weight: 900;
-                    font-size: 44px;
-                    line-height: 1.36;
-                    /* or 136% */
-                    text-align: center;
-                    letter-spacing: 0.06em;
-                    text-transform: uppercase;
-                color: #FFFFFF;}
-                .hero-but{background-color: #2196F3;}
-            .hero-but{font-family:Roboto;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 1.87;
-                /* identical to box height, or 188% */
-                display: flex;
-                align-items: center;
-                text-align: center;
-                letter-spacing: 0.06em;
-                color: #FFFFFF;
-                cursor: pointer;}
-                
-                /*--------section--------*/
-                .section-detel{
-                        font-weight: 700;
-                        font-size: 14px;
-                        line-height: 1.14;
-                        letter-spacing: 0.03em;
-                        text-transform: uppercase;
-                        color: #212121;
-                }
-                .section-tekst{
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 1.71;
-                    /* or 171% */
-                    letter-spacing: 0.03em;
-                    color: #757575;
+}
 
-                }
-                .section-diy{
-                    font-weight: 700;
-                    font-size: 36px;
-                    line-height: 1.16;
-                    text-align: center;
-                    letter-spacing: 0.03em;
-                 color: #212121;
+/*-----section-----*/
+.section-comanda {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
-                }
-                /*-----section-----*/
-                .section-comanda{
-                    font-weight: 700;
-                    font-size: 36px;
-                    line-height: 1.16;
-                    text-align: center;
-                    letter-spacing: 0.03em;
-                    color: #212121;}
-                    .section-comandaimg{
-                            font-weight: 500;
-                            font-size: 16px;
-                            line-height: 1.18;
-                            /* identical to box height */
-                            text-align: center;
-                            letter-spacing: 0.03em;
-                            color: #212121;
-                    }
-                    .section-comandaprof{
-                            font-size: 16px;
-                            line-height: 1.18;
-                            /* identical to box height */
-                            text-align: center;
-                            letter-spacing: 0.03em;
-                            color: #757575;
-                    }
-                    /*-------portfolio----*/
-                    .button-aktiv{font-family: 'Roboto';
-                        font-style: normal;
-                        font-weight: 500;
-                        font-size: 16px;
-                        line-height: 1.62;
-                        /* identical to box height, or 162% */
-                        text-align: center;
-                        letter-spacing: 0.03em;
-                        color: #FFFFFF;}
-                        .button-aktiv{background-color: #2196F3;}
+.section-comandaimg {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
-                        .button{font-family: 'Roboto';
-                            font-style: normal;
-                            font-weight: 500;
-                            font-size: 16px;
-                            line-height: 1.62;
-                            /* identical to box height, or 162% */
-                            text-align: center;
-                            letter-spacing: 0.03em;
-                            color: #212121;}
+.section-comandaprof {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
-                            .robotu-neim {
-                            font-weight: 700;
-                            font-size: 18px;
-                            line-height: 2;
-                            /* identical to box height, or 200% */
-                            letter-spacing: 0.06em;
-    
-                            color: #212121;}
-                            .robotu-proekt{
-                                font-weight: 400;
-                                font-size: 16px;
-                                line-height: 1.87;
-                                /* identical to box height, or 188% */
-                                letter-spacing: 0.03em;
-                                color: #757575;}
+/*-------portfolio----*/
+.button-aktiv {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
-                    /*------footer----*/
-                    .footer{background-color: #2196F3;}
-                    .footer-web{
-                            font-weight: 700;
-                            font-size: 26px;
-                            line-height: 1.19;
-                            /* identical to box height */
-                            letter-spacing: 0.03em;
-                            color: #2196F3;
-                    }
-                    .footer-maps{
-                            font-weight: 400;
-                            font-size: 14px;
-                            line-height:1.71;
-                            /* or 171% */
-                            letter-spacing: 0.03em;
-                            color: #FFFFFF;
-                    }
-                    .footer-tel{
-                            font-size: 14px;
-                            line-height:1.71;
-                            /* or 171% */
-                            letter-spacing: 0.03em;
-                            color: rgba(255, 255, 255, 0.6);
-                    }
-                    .footer-web{
-                            font-size: 14px;
-                            line-height:1.71;
-                            /* or 171% */
-                            letter-spacing: 0.03em;
-                            color: rgba(255, 255, 255, 0.6);
-                    }
+.button-aktiv {
+    background-color: #398fba;
+}
+
+.button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.robotu-neim {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.robotu-proekt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+/*------footer----*/
+.footer {
+    background-color: #060607;
+}
+
+.accent-footer {
+    color: #FFFFFF;
+}
+
+.footer-web {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer-maps {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+
+.footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
