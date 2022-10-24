@@ -2,11 +2,17 @@
  
  
 :root {
-    --meil-color: rgba(33, 33, 33, 1)
+    --meil-color:rgba(33, 33, 33, 1);
+    --mail-color:#FFFFFF;
+    --mel-color:rgba(117, 117, 117, 1);
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: sans-serif;
+    background: #F5F5F5;;
+    font-size: 14px;
+    line-height: 1.62;
+    letter-spacing: 0.02em;
 }
 
 ul {
@@ -33,30 +39,30 @@ ul {
 
 .heder {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.02em;
     color: var(--meil-color)
 }
+.heder .link.current 
+{color: #2196F3;}
 
-
+.stadi{color:var(--meil-color)}
+.stadi:hover,
+.stadi:focus{color: #2196F3;}
+.stadi:current
 
 .header-mail {
     font-weight: 500;
-    letter-spacing: 0.02em;
-    font-size: 16px;
-    line-height: 1.62;
     color: var(--meil-color)
-}
 
+}
+.heder link :hover,
+.heder link :focus {
+    color: #2196F3;
+}
 
 .header-tel {
     font-weight: 500;
-    letter-spacing: 0.02em;
-    color: #757575;
+    color:var(--mel-color);
 }
-.stadi{color: #060607;}
-:hover,footer{color: #2196F3;}
 
 /*-----hero----*/
 
@@ -72,7 +78,7 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color:rgba(255, 255, 255, 1)
 }
 
 .hero-but {
@@ -82,14 +88,12 @@ ul {
 .hero-but {
     font-family: Roboto;
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.87;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    cursor: pointer;
+    color:var(--mail-color)
 }
 
 /*--------section--------*/
@@ -97,13 +101,12 @@ ul {
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color:var(--meil-color);
 }
 
 .section-tekst {
-    font-weight: 400;
     letter-spacing: 0.03em;
-    color: #757575;
+    color:var(--mel-color);
 
 }
 
@@ -113,7 +116,7 @@ ul {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color:var(--meil-color);
 
 }
 
@@ -124,35 +127,32 @@ ul {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color:var(--meil-color);
 }
 
 .section-comandaimg {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color:var(--meil-color);
 }
 
 .section-comandaprof {
-    font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color:var(--mel-color);
 }
 
 /*-------portfolio----*/
 .button-aktiv {
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color:var(--mail-color);
     cursor: pointer;
 }
 
@@ -163,12 +163,10 @@ ul {
 .button {
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
-    cursor: pointer;
+    color:var(--meil-color);
 }
 
 .robotu-neim {
@@ -176,15 +174,13 @@ ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color:var(--meil-color);
 }
 
 .robotu-proekt {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color:var(--mel-color);
 }
 
 
@@ -194,10 +190,11 @@ ul {
 }
 
 .accent-footer {
-    color: #FFFFFF;
+    color:var(--mail-color);
 }
 
 .footer-web {
+    font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19px;
@@ -206,11 +203,10 @@ ul {
 }
 
 .footer-maps {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color:var(--mail-color);
 
 }
 
