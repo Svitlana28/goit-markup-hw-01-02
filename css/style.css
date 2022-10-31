@@ -5,14 +5,18 @@
     --meil-color:rgba(33, 33, 33, 1);
     --mail-color:#FFFFFF;
     --mel-color:rgba(117, 117, 117, 1);
-}
+    --mol-color: #2196F3;
+    --accent-color:#1b1c1e;
+    --zag-color:rgba(255, 255, 255, 1);
+    --footer-color:rgba(255, 255, 255, 0.6);
+    --focus-color:rgba(33, 150, 243, 1);
+    }
 
 body {
-    font-family: sans-serif;
-    background: #F5F5F5;;
+    font-family: Roboto ,Raleway, sans-serif;
+    background: #F5F5F5;
     font-size: 14px;
-    line-height: 1.62;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
 }
 
 ul {
@@ -29,38 +33,44 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--mol-color);
 }
 
 .accent {
-    color: #1b1c1e;
+    color:var(--accent-color);
 }
 
 .heder {
     font-weight: 500;
-    color: var(--meil-color)
-}
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: var(--meil-color)
+    }
 .heder .link.current 
 {color: #2196F3;}
 
 .stadi{color:var(--meil-color)}
-.stadi:hover,
-.stadi:focus{color: #2196F3;}
+.stadi:hover
+.stadi:focus {color:var(--focus-color);}
 .stadi:current
 
 .header-mail {
     font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: var(--meil-color)
 
 }
-.heder link :hover,
-.heder link :focus {
-    color: #2196F3;
+.heder:hover
+.heder:focus {
+    color:var(--focus-color);
 }
 
 .header-tel {
     font-weight: 500;
+    font-size: 14px;
+     line-height: 16px;
+     letter-spacing: 0.02em;
     color:var(--mel-color);
 }
 
@@ -78,7 +88,7 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color:rgba(255, 255, 255, 1)
+    color:var(--zag-color)
 }
 
 .hero-but {
@@ -99,13 +109,12 @@ ul {
 /*--------section--------*/
 .section-detel {
     font-weight: 700;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    line-height: 16px;
     color:var(--meil-color);
 }
 
-.section-tekst {
-    letter-spacing: 0.03em;
+.section-tekst{
+    line-height: 24px;
     color:var(--mel-color);
 
 }
@@ -115,7 +124,6 @@ ul {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
     color:var(--meil-color);
 
 }
@@ -126,7 +134,6 @@ ul {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
     color:var(--meil-color);
 }
 
@@ -134,14 +141,14 @@ ul {
     font-weight: 500;
     line-height: 1.18;
     text-align: center;
-    letter-spacing: 0.03em;
     color:var(--meil-color);
 }
 
 .section-comandaprof {
-    line-height: 1.18;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.18;
     text-align: center;
-    letter-spacing: 0.03em;
     color:var(--mel-color);
 }
 
@@ -151,7 +158,6 @@ ul {
     font-weight: 500;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     color:var(--mail-color);
     cursor: pointer;
 }
@@ -165,7 +171,6 @@ ul {
     font-weight: 500;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     color:var(--meil-color);
 }
 
@@ -178,17 +183,15 @@ ul {
 }
 
 .robotu-proekt {
+    font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
-    color:var(--mel-color);
+    color: var(--mel-color);
 }
-
 
 /*------footer----*/
 .footer {
     background-color: #060607;
 }
-
 .accent-footer {
     color:var(--mail-color);
 }
@@ -198,21 +201,17 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19px;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+    color:var(--mol-color);
 }
 
 .footer-maps {
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color:var(--mail-color);
 
 }
 
 .footer {
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
+    color:var(--footer-color);
+    }
+
