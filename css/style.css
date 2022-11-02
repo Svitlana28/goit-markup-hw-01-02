@@ -27,6 +27,7 @@ ul {
     text-decoration: none;
 }
 
+
 /*-----HEADER-----*/
 .logo {
     font-family: Raleway;
@@ -46,19 +47,27 @@ ul {
         letter-spacing: 0.02em;
         color: var(--meil-color)
     }
-.heder .link.current 
-{color: #2196F3;}
+    
+    .heder .link.current {
+        color: #2196F3;
+    }
+    
+    .stadi {
+    color:var(--meil-color);
+    cursor: pointer;
 
-.stadi{color:var(--meil-color)}
+}
 .stadi:hover
-.stadi:focus {color:var(--focus-color);}
+.stadi:focus {color:var(--focus-color);
+}
 .stadi:current
 
 .header-mail {
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: var(--meil-color)
+    color: var(--mel-color);
+    cursor: pointer;
 
 }
 .heder:hover
@@ -69,9 +78,9 @@ ul {
 .header-tel {
     font-weight: 500;
     font-size: 14px;
-     line-height: 16px;
-     letter-spacing: 0.02em;
-    color:var(--mel-color);
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--focus-color);
 }
 
 /*-----hero----*/
@@ -103,9 +112,10 @@ ul {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color:var(--mail-color)
+    color:var(--mail-color);
+    cursor:pointer;
 }
-
+.hero-but:active{color: #2196F3;}
 /*--------section--------*/
 .section-detel {
     font-weight: 700;
@@ -140,6 +150,7 @@ ul {
 .section-comandaimg {
     font-weight: 500;
     line-height: 1.18;
+    font-size: 16px;
     text-align: center;
     color:var(--meil-color);
 }
@@ -153,27 +164,35 @@ ul {
 }
 
 /*-------portfolio----*/
+
 .button-aktiv {
     font-family: 'Roboto';
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.62;
     text-align: center;
     color:var(--mail-color);
     cursor: pointer;
 }
-
 .button-aktiv {
     background-color: #398fba;
 }
-
+.button-link{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;}
 .button {
     font-family: 'Roboto';
     font-weight: 500;
     line-height: 1.62;
     text-align: center;
     color:var(--meil-color);
+    cursor: pointer;
 }
-
+.button :active{color: #2196F3;}
 .robotu-neim {
     font-weight: 700;
     font-size: 18px;
@@ -209,9 +228,9 @@ ul {
     color:var(--mail-color);
 
 }
+.footer-maps{cursor: none;}
 
 .footer {
     line-height: 1.71;
     color:var(--footer-color);
     }
-
