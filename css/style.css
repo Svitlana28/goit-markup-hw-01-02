@@ -14,6 +14,7 @@
 
 body {
     font-family: Roboto ,Raleway, sans-serif;
+    color:rgba(33, 33, 33, 1); ;
     background: #F5F5F5;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -27,8 +28,10 @@ ul {
     text-decoration: none;
 }
 
+img{display: block;}
 
 /*-----HEADER-----*/
+
 .logo {
     font-family: Raleway;
     font-weight: 700;
@@ -42,7 +45,7 @@ ul {
 }
 
 .heder {
-    font-weight: 500;
+        font-weight: 500;
         line-height: 16px;
         letter-spacing: 0.02em;
         color: var(--meil-color)
@@ -51,40 +54,49 @@ ul {
     .heder .link.current {
         color: #2196F3;
     }
+        .heder.link:hover .heder.link:focus {
+            color: #2196F3;
+        }
     
-    .stadi {
-    color:var(--meil-color);
-    cursor: pointer;
-
-}
-.stadi:hover
-.stadi:focus {color:var(--focus-color);
+        .stadi {
+            color: var(--meil-color);
+            cursor: pointer;
+    
+        }
+    
+        .stadi:hover .stadi:focus {
+            color: var(--focus-color);
 }
 .stadi:current
 
-.header-mail {
+.header link {
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--mel-color);
     cursor: pointer;
 
 }
-.heder:hover
-.heder:focus {
-    color:var(--focus-color);
-}
-
-.header-tel {
+.link:hover
+.link:focus{color: #2196F3;}
+.tel {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--focus-color);
+    color:var(--mel-color);
 }
-
-/*-----hero----*/
-
+.tel :hover
+.tel :focus{color: gba(33, 150, 243, 1);}
+.meil{
+    font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--mel-color);
+    }
+    .meil:hover
+    .meil:focus{color: #1b1c1e;}
+    
+    /*-----hero----*/
 
 .hero {
     background-color: #060607;
@@ -117,13 +129,15 @@ ul {
 }
 .hero-but:active{color: #2196F3;}
 /*--------section--------*/
-.section-detel {
+.section-detel{ 
+    font-size: 14px;
     font-weight: 700;
     line-height: 16px;
     color:var(--meil-color);
 }
 
 .section-tekst{
+    font-size: 14px;
     line-height: 24px;
     color:var(--mel-color);
 
@@ -146,15 +160,17 @@ ul {
     text-align: center;
     color:var(--meil-color);
 }
+.section-comanda {
+    background: rgba(245, 244, 250, 1);
+}
 
 .section-comandaimg {
     font-weight: 500;
     line-height: 1.18;
     font-size: 16px;
     text-align: center;
-    color:var(--meil-color);
+    color: var(--meil-color);
 }
-
 .section-comandaprof {
     font-weight: 500;
     font-size: 16px;
@@ -174,9 +190,14 @@ ul {
     color:var(--mail-color);
     cursor: pointer;
 }
+.button-aktiv:hover
+.button-aktiv:focus{color: #2196F3;}
 .button-aktiv {
     background-color: #398fba;
+
 }
+
+.button-link{ background: #F5F4FA;;}
 .button-link{
     font-family: 'Roboto';
     font-weight: 500;
@@ -192,7 +213,11 @@ ul {
     color:var(--meil-color);
     cursor: pointer;
 }
-.button :active{color: #2196F3;}
+.button .link:hover
+.button .link:focus{color: #2196F3;}
+
+.img link{padding:215px;
+    top: 262px;}
 .robotu-neim {
     font-weight: 700;
     font-size: 18px;
@@ -208,11 +233,18 @@ ul {
 }
 
 /*------footer----*/
+.adress{font-style: normal;}
+
 .footer {
     background-color: #060607;
 }
+
 .accent-footer {
-    color:var(--mail-color);
+    color: var(--mail-color);
+}
+
+.footer .link {
+    cursor: auto;
 }
 
 .footer-web {
@@ -220,15 +252,13 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19px;
-    color:var(--mol-color);
+    color: var(--mol-color);
 }
-
 .footer-maps {
     line-height: 1.71;
     color:var(--mail-color);
 
 }
-.footer-maps{cursor: none;}
 
 .footer {
     line-height: 1.71;
